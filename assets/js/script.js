@@ -138,6 +138,7 @@ function moveAll () {
       brickLeft--
 
       ballSpeedY *= -1
+      soundEffect()
     }
   }
   if (ballBrickCol1 >= 0 && ballBrickCol1 < BRICK_COLS &&
@@ -147,6 +148,7 @@ function moveAll () {
       brickLeft1--
 
       ballSpeedY *= -1
+      soundEffect()
     }
   }
 
@@ -165,6 +167,7 @@ function moveAll () {
     var centerOfPaddleX = paddleX + PADDLE_WIDTH / 2
     var ballDistFromPaddleCenterX = ballX - centerOfPaddleX
     ballSpeedX = ballDistFromPaddleCenterX * 0.35
+    soundEffect()
   }
   var paddleTopEdgeY2 = PADDLE_DIST_FROM_EDGE - 12
   var paddleBottomEdgeY2 = paddleTopEdgeY2 + PADDLE_THICKNESS
@@ -181,6 +184,7 @@ function moveAll () {
     var centerOfPaddleX2 = paddleX2 + PADDLE_WIDTH / 2
     var ballDistFromPaddleCenterX2 = ballX - centerOfPaddleX2
     ballSpeedX = ballDistFromPaddleCenterX2 * 0.35
+    soundEffect()
   }
 }
 
@@ -278,4 +282,9 @@ function restart () {
     score = 0
     score1 = 0
   }
+}
+function soundEffect () {
+  var soundEfx
+  soundEfx = document.getElementById('soundEfx')
+  soundEfx.play()
 }

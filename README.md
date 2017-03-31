@@ -3,22 +3,22 @@
 
 # Pong Defense v1
 
-**Synopsis**
+*Synopsis*
 Pong Defense is a two Player game.It is a remake of the classic Paddle Pong but with added game play mechanics of defending bricks instead of the classic scoring system.
 
-**Gameplay**
+*Gameplay*
 P1: Mouse movement
 
 P2: Paddle move left :left arrow
     Paddle move right :right arrow
 
-**Built With**
+*Built With*
 -HTML
 -JavaScript
 -css
 
 
-**Workflow**
+*Workflow*
 Day 1: 1)Finding reference and learning canvas from tutorial
        2)Went through udemy tutorial and took the code and start to modify it.
 
@@ -35,9 +35,16 @@ Day 4: 1)Win condition
 
 Day 5:1)Sound
 
-**Development**
+*Development*
+https://docs.google.com/presentation/d/1ZNK1aNBaS7MOq7ezKZq5mJ0ek6L1fhnEkvDyJmgZ-bk/edit#slide=id.g202cedd045_1_73
 
-**Inspiration and Resources**
+
+*Bugs to work on*
+	•**Collision** detection between paddle and ball is not spot on
+  •Sound effect file cannot be read
+  •Start Menu and Pause Menu
+
+*Inspiration and Resources*
 https://www.udemy.com/how-to-program-games/learn/v4/overview
 https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
 https://www.youtube.com/watch?v=eL1X8urHJmA
@@ -46,3 +53,10 @@ images: http://static5.depositphotos.com/1032427/501/i/950/depositphotos_5017696
 audio:
 https://www.dl-sounds.com/royalty-free/give-away/
 http://soundbible.com/2004-Gun-Shot.html
+
+*Acknowledgement*
+☺Modified code from Udemy Tutorial
+☺Received help from GA Instructor and classmates
+
+*Author*
+Made By ALVIN♂
